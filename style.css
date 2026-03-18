@@ -1,0 +1,29 @@
+{\rtf1}
+h1 {
+    color: rgb(255, 0, 136);
+}
+p {
+    color: rgb(0, 13, 255);
+}
+body {
+    color: black;
+    background-color: #d7c7c7;
+}
+p {
+    font-size: 20px;
+}
+body {
+    font-family: Arial;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+section {
+    margin: 40px;
+    padding: 15px;
+    border: 3px solid #bf7713;
+}
+p {
+    margin-left: 40px;
+}
