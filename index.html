@@ -6,38 +6,50 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>
+    <nav >
+        <ul class="nav_" style="color: brown;">
+            <li ><a href="#Acceuil">Acceuil</a></li>
+            <li><a href="#A propos">A propos</a></li>
+            <li><a href="#Competence">Competence</a></li>
+            <li><a href="#Parcours">Parcours</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <ol class="genral">
+        <h1>
         <u>
-        SIPEUWOU KENMOE <br>
+        ING SIPEUWOU KENMOE
         <em>DURAND</em>
         </u>
     </h1>
-    <p>
+    <strong>
+        <p>
              Je suis un eleve ingenieur a l'ecole nationale superieur des travaux publics ma passion pour le domaine <br>
-        de la programmation nait d'un desir profond d'etre au top de mon domaine dans le genie civil. 
-    </p>
-    <nav>
-        <ul>
-            <il><a href="#Acceuil">Acceuil</a></il>
-            <il><a href="#A propos">A propos</a></il>
-            <il><a href="#Competence">Competence</a></il>
-            <il><a href="#Parcours">Parcours</a></il>
-            <il><a href="#Contact">Contact</a></il>
-        </ul>
-    </nav>
-
+           de la programmation nait d'un desir profond d'etre au top de mon domaine dans le genie civil. 
+       </p>
+    </strong>
 
         <!-- contenu de la partie Acceuil -->
-    <section >
-        <p id="Acceuil" style="color: red;">Acceuil</p>
-        <h3>
-           <p>
-              eleve ingenieur en 4eme annee  a l'ENSTP de Yaounde. j'aime apprendre <br>
-              et j'ai pour obgectif professionnel d'etre un grand ING dans le domaine du genie civil
-           </p>  
-           <img src="durand.jpg" width="400" alt="Photo"> <br>
-           <button><a href="https://wa.me/23765129466">ME CONTACTER</a></button> 
-           <!-- il est generalement mieux de creer une balise "a" et deinir la taille du bouton -->
+    <section class="Acceuil" >
+        <h2><p id="Acceuil" style="color: red;">Acceuil</p></h2>
+        <h3 class="h3acceuil">
+           <li >
+              <p class="pluslong">
+                  eleve ingenieur en 4eme annee  a l'ENSTP de Yaounde. j'aime apprendre 
+                  et j'ai pour obgectif professionnel d'etre un grand ING dans le domaine du genie civil
+                  mon histoire pour l'apprentissage depuis 2020 reste imaginable et je serait toujours 
+                  reconnaissant pour tous ceux qui ont donne la main pendant cette periode ou j'ai beaucoup appris.
+              </p> 
+            </li>
+             <li></li> <!--pour avoir un espacment cherent  -->
+            <li> 
+                <img src="durand.jpg" width="400" alt="Photo">
+                <button>
+                    <a href="https://wa.me/23765129466">ME CONTACTER</a>
+                </button>
+             </li> 
+             <!-- il est generalement mieux de creer une balise "a" et deinir la taille du bouton -->
+            
         </h3>
            
     </section>   
@@ -45,37 +57,57 @@
    
     <!-- contenu de la section a propos -->
     <section>
-        <p id="A propos" style="color: red;">A propos</p>
+       <h2><p id="A propos" style="color: red;">A propos</p></h2>
      <h2>
         Qui suis-je?
      </h2>
-        <p>
-            je suis etudiant passionne par la programmation et tres curieux de faire <br>
-            une fusion entre mon domaine phare (genie civil) et les langages de programmation <br>
-            dans le but de mettre en exergue une pratique numerique des strucutures a realiser en <br>
-            batiment et les travaux publics.
-        </p>
-        <p>
-            ObjectifF: devenir une pro de la programmation en html, css et javascript
-        </p>
-        <div>
-            <h2>1<sup>er</sup></h2> <!--en indice on utilise sub-->
-            <p>ANNEE D'INFORMATIQUE</p>
-        </div>
-        <div>
-            <h2>3+</h2>
-            <p>TECHNOLOGIES MAITRISEES</p>
-        </div>
-        <div>
-            <h2>00</h2>
-            <P> ENVIE D'APPRENDRE</P>
-        </div>
+    <ul class="apropos">
+        <li id="quisuisje">
+            <p >
+               je suis etudiant passionne par la programmation et tres curieux de faire <br>
+               une fusion entre mon domaine phare (genie civil) et les langages de programmation <br>
+               dans le but de mettre en exergue une pratique numerique des strucutures a realiser en <br>
+               batiment et les travaux publics.
+            </p>
+           
+           <p>
+               ObjectifF: devenir un pro de la programmation en html, css et javascript.
+                Dans le domaine du genie civil je me donne au maximun egalement pour acquirir
+                le maxinum de competence afin d'etre un ingenieur complet.
+                <br> Merci pour la consideration que vous avez pour moi dans l'avenir
+                on sera sans doute dans le top.
+           </p>
+         </li>
+         <li></li>
+        <li>
+            <div>
+               <h2>1<sup>er</sup></h2> <!--en indice on utilise sub-->
+               <p>ANNEE D'EXPERIENCE</p>
+            </div>
+            <div>  
+               <h2>3+</h2>
+               <p>TECHNOLOGIES MAITRISEES</p>
+            </div>
+            <div>
+              <h2>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                  class="bi bi-infinity" viewBox="0 0 16 16">
+                  <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 
+                  5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 
+                  3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
+                 </svg>
+              </h2>
+              <P> ENVIE D'APPRENDRE</P>
+            </div>
+        </li>
+       
+    </ul>
     </section>
 
 
     <!-- cotenu de la section competence -->
      <section>
-        <p id="Competence" style="color: red;">Competence</p>
+       <h3><p id="Competence" style="color: red;">Competence</p></h3>
         <p>
            neamoinns malgres mon petit niveau j'ai une petite experience dont je vais enumerer quelques:
           <ul>
@@ -91,7 +123,7 @@
 
     <!-- creation du contenu du pacours -->
      <section>
-        <p id="Parcours" style="color: red;">Parcours</p>
+        <h2><p id="Parcours" style="color: red;">Parcours</p></h2>
         <h3>
             2026
         </h3>
@@ -108,25 +140,63 @@
 
 
      <!-- contenu du contact-->
-      <section>
-        <p id="Contact" style="color: red;">Contact</p>
-        <h2>
+      <section class="contact">
+       <ul><h2><p id="Contact" style="color: red;">Contact</p></h2>
+         <h2>
             Travaillons <br>
             <em style="color: rosybrown;">ensemble</em>
-        </h2>
-        <div>
-            <h3>HTML</h3>
-        </div>
-        <div>
-            <h3>Git</h3>
-        </div>
-        <div>
+         </h2>
+         <h3>
+            <label for="#Contact">NOm :</label>
+            <input type="text" name="SIPEUWOU" width="200px" height="20px"> <br> <br>
+            <label for="">Prenom :</label>
+            <input type="text" > <br> <br>
+            <label for="">Tel :</label>
+            <input type="tel" name="" id=""> <br> <br>
+            <label for="">Email</label>
+            <input type="email" name="" id=""> <br> <br>
+            <input type="submit" value="Soumettre" width="200px">
+         </h3>
+       </ul> 
+       <!-- <ul id="detail">
+    
+       </ul> -->
+       <ul >
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-filetype-html" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1
+                .79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.
+                 16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
+               </svg>
+               <h3>HTML</h3>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 
+                1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1
+                -.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+                </svg>
+               <h3>Git</h3>
+            </div>
+            <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" 
+              viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 
+                0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
+                1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08
+               -.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+               1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 
+              .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
             <h3>GitHub</h3>
-        </div>
-        <div>
+           </div>
+           <div>
             <h3>Travail en equipe</h3>
-        </div>
-      </section>
-      <u><link rel="stylesheet" href="style.css"></u>
+           </div>
+       </ul>
+    </section>
+    </ol>
+    <u><link rel="stylesheet" href="style.css"></u>
+      
 </body>
 </html>
