@@ -119,6 +119,7 @@ div {
     .Body {
         width: 100%;
         display: block;
+        font-size: 40%;
     }
     .nav_ {
         display: block;
@@ -149,8 +150,12 @@ div {
         display: block;
     }
     .contact div {
-         width: 250px;
-    height: 150px;
+        width: 150px;
+        height: 75px;
+    }
+    .apropos div {
+        width: 150px;
+        height: 75px;
     }
     
 }
