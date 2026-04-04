@@ -1,161 +1,20 @@
 
-.nav_ {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    background-color: oklab(87.485% -0.06933 -0.02984);
-    width: 100%;
-}
-.nav_ li {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    color: black;
-    margin: 0px;
-    font-size: 100%;
-}
-h1 {
-    color: rgb(255, 0, 136);
-    display: flex;
-    margin: 10px;
-}
-p {
-    color: rgb(0, 13, 255);
-    font-family:italic;
-    font-size: 120%;
-    margin: 10px;
-}
-.general {
-    font-family: italic;
-    margin: 0px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-h1 {
-    font-weight: bold;
-    text-align: center;
-}
-.h3acceuil {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-
-}
-.h3acceuil li{
-    width: 50%;
-}
-.pluslong {
-    width: 120%;
-    font-size: 100%;
-}
-section {
-    margin: 20px;
-    padding: 15px;
-    border: 4px solid #bf7713;
-    border-radius: 20px;
-    width: 80%;
-}
-img {
-    width: 100%;
-    border-radius: 50%;
-   justify-items: end;
-}
-button {
-    color: white;
-    background-color: #376f74;
-    padding: 10px;
-    border: 3px solid rgb(166, 151, 117);
-    border-radius: 20px;
-    align-items: center;
-    width: 70%;
-    font-size: 60%;
-}
-.Acceuil {
-    border: 6px solid rgb(255, 187, 0);
-    list-style: none;
-
-}
-div {
-    background-color: rgb(155, 193, 226);
-    width: 80%;
-    margin: 10px;
-    border: 4px solid black;
-    padding: 3%;
-    text-align: center;
-    border-radius: 10%;
-}
-
-
-.apropos {
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    /* justify-content: space-around; */
-}
-.apropos div{
-    width: 250px;
-    height: 150px;
-}
-#quisuisje {
-    width: 60%;   
-}
-
-
-.contact {
-    display: flex;
-    gap: 100px;
-    justify-content: space-around;
-}
-.contact div {
-    width: 100%;
-}
-#detail {
-    width: 200px;
-}
 @media all and (max-width:1000px) {
-    .Body {
-        width: 100%;
-        display: block;
-        font-size: 40%;
+    .section {
+        display: flex;
+        flex-direction: column;
+       width: 100%;
     }
-    .nav_ {
-        display: block;
-        flex-direction: row;
+    .para-apropos p {
+        width: 170%;
     }
-    div {
-        width: 100%;
+    .aligner img {
+        width: 250px;
+        height: 250px;
     }
-    .nav_ li {
-        display: block;
+    .card-item-details {
+        width: 10px;
+        padding: 0px;
     }
-    .h3acceuil {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .general {
-        display: block;
-    }
-    .contact {
-        display: block;
-        /* width: 100%; */
-    }
-    div {
-        width: 100%;
-    }
-    .apropos {
-        display: block;
-    }
-    .contact div {
-        width: 150px;
-        height: 75px;
-    }
-    .apropos div {
-        width: 150px;
-        height: 75px;
-    }
-    
 }
